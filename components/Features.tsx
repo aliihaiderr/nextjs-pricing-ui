@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { Text, HStack, Icon, StackProps, Box } from "@chakra-ui/react";
+import { ElementType } from "react";
 import {
   MoneyBackGuarantee,
   HassleFree,
