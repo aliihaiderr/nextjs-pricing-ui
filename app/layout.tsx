@@ -1,4 +1,4 @@
-import Provider from "@/components/chakra";
+import ChakraWraper from "@/components/chakra"
 
 
 export default function RootLayout({children,}: {children: React.ReactNode}) {
@@ -10,7 +10,7 @@ export default function RootLayout({children,}: {children: React.ReactNode}) {
       */}
       <head />
       <body>
-        <Provider>{children}</Provider>
+        <ChakraWraper>{children}</ChakraWraper>
       </body>
     </html>
   )

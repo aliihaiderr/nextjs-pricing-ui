@@ -2,6 +2,6 @@
 
 import { ChakraProvider } from "@chakra-ui/react";
 
-export default function Provider({ children }: { children: React.ReactNode }) {
+export default function ChakraWraper({ children }: { children: React.ReactNode }) {
   return <ChakraProvider>{children}</ChakraProvider>;
 }
